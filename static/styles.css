@@ -1,5 +1,6 @@
 body {
     font-family: bold,Helvetica,Arial,sans-serif;
+    min-width: 249px;
 }
 
 #top {
@@ -170,7 +171,7 @@ body {
 }
 
 
-@media (min-width: 250px) and (max-width: 641px) {
+@media (min-width: 1px) and (max-width: 641px) {
     html, body, p, .lead {
         font-size: 13px; 
     }
