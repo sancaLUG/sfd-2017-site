@@ -20,6 +20,10 @@ body {
     padding: 0px;
 }
 
+.icon-bar {
+    background-color: #333;
+}
+
 .center-img {
     display: block;
     margin: 0 auto;
@@ -134,7 +138,7 @@ body {
     text-align: center;
 }
 
-@media (min-width: 320px) and (max-width: 641px) {
+@media (min-width: 250px) and (max-width: 641px) {
     html, body, p, .lead {
         font-size: 13px; 
     }
