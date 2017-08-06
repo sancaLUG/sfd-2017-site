@@ -12,11 +12,11 @@ body {
 
 #content {
     background-color: #473f39;
-    padding: 150px;
+    padding: 150px 0px;
 }
 
 #event-info {
-    font-size: 16px;
+    font-size: 24px;
     padding: 0px;
 }
 
@@ -102,7 +102,7 @@ body {
     background-image: url("usp-sao-carlos.jpeg");
     background-size: cover;
     background-position-x: center;
-    background-position-y: -200px;
+    background-position-y: 20%;
     color: #fff;
     text-shadow: 1px 1px #333;
 }
@@ -133,3 +133,46 @@ body {
 #schedule th {
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 641px) {
+    html, body, p, .lead {
+        font-size: 13px; 
+    }
+    
+    h1 {
+        font-size: 18px; 
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .lead {
+        width: 80%;
+    }
+
+    .section {
+        padding: 40px 10px;
+    }
+
+    .half-rule {
+        margin: 15px auto;
+    }
+
+    #content {
+        padding: 100px 15px;
+    }
+
+    #content img {
+        width: 100%;
+    }
+
+    #event-info {
+        font-size: 18px;
+    }
+
+    #venue {
+        background-position-y: top;
+    }
+}
+
