@@ -43,9 +43,13 @@ body {
 }
 
 .section {
-    padding: 80px;
+    padding: 80px 0px;
     color: #333;
     border-bottom: 1px solid #e5e5e5;
+}
+
+.section .container {
+    width: 90%;
 }
 
 .section .lead {
@@ -59,6 +63,10 @@ body {
 .section h3 {
     text-align: center;
     margin-top: 40px;
+}
+
+.section table {
+    overflow: auto;
 }
 
 .half-rule {
@@ -138,6 +146,29 @@ body {
     text-align: center;
 }
 
+.col-md-4 .lead {
+    width: 90%;
+}
+
+#sponsors ul {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#sponsors li {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+#sponsors a {
+    color: inherit;
+}
+
+#sponsors a:hover {
+    color: inherit;
+}
+
+
 @media (min-width: 250px) and (max-width: 641px) {
     html, body, p, .lead {
         font-size: 13px; 
@@ -156,7 +187,7 @@ body {
     }
 
     .section {
-        padding: 40px 10px;
+        padding: 40px 0px;
     }
 
     .half-rule {
@@ -179,4 +210,3 @@ body {
         background-position-y: top;
     }
 }
-
