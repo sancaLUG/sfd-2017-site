@@ -66,7 +66,8 @@ body {
 }
 
 .section table {
-    overflow: auto;
+    display: block;
+    overflow-x: auto;
 }
 
 .half-rule {
@@ -187,7 +188,11 @@ body {
     }
 
     .section {
-        padding: 40px 0px;
+        padding: 20px 0px;
+    }
+
+    .section .container {
+        width: 100%;
     }
 
     .half-rule {
