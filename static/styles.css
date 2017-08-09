@@ -67,7 +67,6 @@ body {
 }
 
 .section table {
-    width: 700px;
     display: block;
     overflow-x: auto;
 }
@@ -139,7 +138,7 @@ body {
 }
 
 #schedule table {
-    width: 80%;
+    width: 700px;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
