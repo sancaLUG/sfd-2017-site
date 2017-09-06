@@ -30,7 +30,6 @@
         <nav id="head-navbar" class="collapse navbar-collapse">
           <ul class="sfd-nav nav navbar-nav">
             <li><a href="#about">Sobre</a></li>
-            <li><a href="#talk">Palestre</a></li>
             <li><a href="#venue">Local</a></li>
             <li><a href="#schedule">Programação</a></li>
             <li><a href="#sponsors">Apoio</a></li>
@@ -74,24 +73,6 @@
       </div>
     </section>
 
-    <section id="talk" class="section">
-      <div class="container">
-        <h2>Venha palestrar</h2>
-        <p class="lead">
-          Gostaria de falar sobre software livre, GNU/Linux, desenvolvimento de
-          jogos livres, ciência aberta ou qualquer outro tópico relacionado ao
-          SFD 2017?
-        </p>
-        <p class="lead">
-          Envie sua proposta de palestra de até 40 minutos pelo link abaixo.
-        </p>
-        <hr class="half-rule">
-        <p class="lead">
-          <a class="btn btn-outline btn-lg" href="http://speakerfight.com/events/software-freedom-day-2017-sao-carlos/" target="_blank">Envie sua palestra</a>
-        </p>
-      </div>
-    </section>
-
     <section id="venue" class="section">
       <div class="container">
         <h2>Instituto de Física de São Carlos</h2>
@@ -124,10 +105,10 @@
           <tbody>
             <tr>
               <td>08h30</td>
-              <td rowspan="2" class="success">Minicurso Linux</td>
-              <td rowspan="2" class="info">Minicurso Arduino</td>
+              <td rowspan="2" class="workshop-linux">Minicurso Linux</td>
+              <td rowspan="2" class="workshop-arduino">Minicurso Arduino</td>
               <td rowspan="2"></td>
-              <td rowspan="9" class="warning">Installfest e Hall Livre</td>
+              <td rowspan="8" class="installfest">Installfest e Hall Livre</td>
             </tr>
             <tr>
               <td>12h30</td>
@@ -135,37 +116,45 @@
             <tr>
               <td>14h00</td>
               <td colspan="2"></td>
-              <td class="danger">Abertura SFD</td>
+              <td class="interstition">Abertura SFD</td>
             </tr>
             <tr>
               <td>14h30</td>
               <td colspan="2"></td>
-              <td class="danger">Palestra 1</td>
+              <td class="talks">
+                <em>Por que o Linux veio da Finlândia e não do Brasil?</em>
+                (Jecel Assumpção Jr.)
+              </td>
             </tr>
             <tr>
               <td>15h20</td>
               <td colspan="2"></td>
-              <td class="danger">Palestra 2</td>
+              <td class="talks">
+                <em>A Saúde da Internet no Mundo: da inovação aberta à
+                  literacia web</em> (Geraldo Barros)
+              </td>
             </tr>
             <tr>
               <td>16h10</td>
               <td colspan="2"></td>
-              <td class="danger">Coffee Break</td>
+              <td class="interstition">Coffee Break</td>
             </tr>
             <tr>
               <td>16h40</td>
               <td colspan="2"></td>
-              <td class="danger">Palestra 3</td>
+              <td class="talks">
+                <em>Palestra</em> do Prof. Dr. Guilherme Sipahi
+              </td>
             </tr>
             <tr>
               <td>17h30</td>
               <td colspan="2"></td>
-              <td class="danger">Palestra 4</td>
-            </tr>
-            <tr>
-              <td>18h20</td>
-              <td colspan="2"></td>
-              <td class="danger">Lightning Talks</td>
+              <td class="talks">
+                <em>O advento das urnas eletrônicas de 3° geração, seu papel
+                  na democracia mundial e o estudo de caso da primeira urna
+                  desse tipo desenvolvida no Brasil</em> (João Victor Custódio
+                Costa)
+              </td>
             </tr>
           </tbody>
         </table>
@@ -192,11 +181,7 @@
             <p class="lead">
               Uma tarde de palestras sobre software livre e tecnologia. Serão
               dois convidados, mais dois palestrantes da comunidade, além de uma
-              sessão de lightning talks para fechar. Interessou? Não se esqueça
-              de enviar sua proposta!
-            </p>
-            <p class="lead">
-              <a class="btn btn-outline btn-sm" href="http://speakerfight.com/events/software-freedom-day-2017-sao-carlos/" target="_blank">Envie sua palestra</a>
+              sessão de lightning talks para fechar.
             </p>
           </div>
           <div class="col-md-4">
@@ -219,42 +204,52 @@
       </div>
     </section>
 
+
     <section id="sponsors" class="section">
       <div class="container">
-        <h2>Apoio</h2>
+        <h2>Patrocínio</h2>
         <ul class="list-inline">
           <li>
-            <a target="_blank" href="http://ccsl.icmc.usp.br/">
-              <img class="center-img" src="static/ccsl-logo.png" style="height: 75px">
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www2.ifsc.usp.br/portal-ifsc/">
-              <img class="center-img" src="static/ifsc-logo.png" style="height: 100px">
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="http://www.topus.eesc.usp.br/">
-              <img class="center-img" src="static/topus-logo.png" style="height: 125px">
-            </a>
           </li>
         </ul>
+      </div>
 
-        <hr class="half-rule">
+      <hr class="half-rule">
 
-        <h3>Organização</h3>
-        <ul class="list-inline">
-          <li>
-            <a target="_blank" href="https://www.meetup.com/pt-BR/grupy-sanca/">
-              <img class="center-img" src="static/grupy-sanca-logo.png" style="height: 100px">
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://sancalug.org/">
-              <img class="center-img" src="static/sancalug-logo.png" style="height: 40px">
-            </a>
-          </li>
-        </ul>
+      <h2>Apoio</h2>
+      <ul class="list-inline">
+        <li>
+          <a target="_blank" href="http://ccsl.icmc.usp.br/">
+            <img class="center-img" src="static/ccsl-logo.png" style="height: 75px">
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www2.ifsc.usp.br/portal-ifsc/">
+            <img class="center-img" src="static/ifsc-logo.png" style="height: 100px">
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="http://www.topus.eesc.usp.br/">
+            <img class="center-img" src="static/topus-logo.png" style="height: 125px">
+          </a>
+        </li>
+      </ul>
+
+      <hr class="half-rule">
+
+      <h2>Organização</h2>
+      <ul class="list-inline">
+        <li>
+          <a target="_blank" href="https://www.meetup.com/pt-BR/grupy-sanca/">
+            <img class="center-img" src="static/grupy-sanca-logo.png" style="height: 100px">
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://sancalug.org/">
+            <img class="center-img" src="static/sancalug-logo.png" style="height: 40px">
+          </a>
+        </li>
+      </ul>
       </div>
     </section>
 

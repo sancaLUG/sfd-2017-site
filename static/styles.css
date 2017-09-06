@@ -173,11 +173,11 @@ body {
 
 @media (min-width: 1px) and (max-width: 641px) {
     html, body, p, .lead {
-        font-size: 13px; 
+        font-size: 13px;
     }
-    
+
     h1 {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     h2 {
@@ -215,4 +215,28 @@ body {
     #venue {
         background-position-y: top;
     }
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+   }
+
+.workshop-linux {
+  background-color: #f48fb1;
+}
+
+.workshop-arduino {
+  background-color: #90caf9;
+}
+
+.talks {
+  background-color: #ffcc80;
+}
+
+.interstition {
+  background-color: #eeeeee;
+}
+
+.installfest {
+  background-color: #a5d6a7;
 }
