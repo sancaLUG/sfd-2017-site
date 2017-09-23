@@ -12,6 +12,12 @@ body {
 }
 
 #content {
+    background-image: url("foto_legal.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: #fff;
+    text-shadow: 1px 1px #333;
     background-color: #473f39;
     padding: 150px 0px;
 }
@@ -110,6 +116,15 @@ body {
 .footer-links li {
     display: inline-block;
     padding: 10px 10px 10px 0px;
+}
+
+#main {
+    background-image: url("foto_legal.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 20%;
+    color: #fff;
+    text-shadow: 1px 1px #333;
 }
 
 #venue {
